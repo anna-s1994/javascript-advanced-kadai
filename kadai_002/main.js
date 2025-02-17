@@ -132,7 +132,7 @@ const timer = () => {
       document.removeEventListener('keypress', keyPress);
       setTimeout(() => {
       gameOver(id);
-    }, 100);
+    }, 10);
   }
 }, 1000);
 };
